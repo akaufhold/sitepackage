@@ -1,0 +1,11 @@
+# import lib ContentElement
+@import 'EXT:sitepackage/Configuration/TypoScript/ContentElements/Lib/'
+@import 'EXT:sitepackage/Configuration/TypoScript/ContentElements/Bullets/'
+@import 'EXT:sitepackage/Configuration/TypoScript/ContentElements/Uploads/'
+
+# import ContentElements
+#@import 'EXT:sitepackage/Configuration/TypoScript/ContentElement/Groups/Static/'
+#@import 'EXT:sitepackage/Configuration/TypoScript/ContentElement/Groups/Dynamic/'
+#@import 'EXT:sitepackage/Configuration/TypoScript/ContentElement/Groups/Menu/'
+#@import 'EXT:sitepackage/Configuration/TypoScript/ContentElement/Groups/Plugin/'
+#@import 'EXT:sitepackage/Configuration/TypoScript/ContentElement/Groups/Special/'

@@ -1,0 +1,11 @@
+@for $i from 1 through 6 {
+    h#{$i}.ce-headline-left{
+        text-align: left; 
+    }
+    h#{$i}.ce-headline-center{
+      text-align: center;
+    }
+    h#{$i}.ce-headline-right{
+        text-align: right;
+    }
+}

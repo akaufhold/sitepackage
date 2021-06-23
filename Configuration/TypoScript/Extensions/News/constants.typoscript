@@ -1,0 +1,7 @@
+plugin.tx_news.settings.sitemap.startingpoint = 0
+plugin.tx_news.settings.sitemap.detailPid = 494
+
+plugin.tx_news.settings.media.width = 600
+plugin.tx_news.settings.media.maxWidth = 600
+plugin.tx_news.settings.list.media.image.maxWidth = 600
+plugin.tx_news.settings.list.media.image.width = 600

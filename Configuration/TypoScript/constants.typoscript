@@ -1,0 +1,51 @@
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:fluid_styled_content/Configuration/TypoScript/constants.typoscript">
+
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:sitepackage/Configuration/TypoScript/Extensions/constants.typoscript" extensions="typoscript>
+
+# PATH CONSTANTS SNIPPETS
+extPath         = EXT:sitepackage/
+
+privatePath     = Resources/Private/
+publicPath      = Resources/Public/
+
+buildPath       = Frontend/Build/
+
+layoutPath      = Layouts/
+partialPath     = Partials/
+templatePath    = Templates/
+
+iconPath        = Icons/
+cssPath         = Css/ 
+jsPath          = JavaScript/
+
+# PATH CONSTANTS COMPLETE
+# {$extPath}{$privatePath}{$layoutPath}
+# {$extPath}{$privatePath}{$partialPath}
+# {$extPath}{$privatePath}{$templatePath}
+
+page {
+    meta {
+        description =
+        author =
+        keywords =
+        viewport = width=device-width, initial-scale=1
+        robots = index,follow
+        apple-mobile-web-app-capable = no
+        compatible = IE=edge
+    }
+    tracking {
+        google {
+            trackingID =
+            anonymizeIp = 1
+        }
+    }
+}
+
+config {
+    no_cache = 0
+    removeDefaultJS = 0
+    admPanel = 1
+    prefixLocalAnchors = all
+    headerComment = 
+    sendCacheHeaders = 1
+}

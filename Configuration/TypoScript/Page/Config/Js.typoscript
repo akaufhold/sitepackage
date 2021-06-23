@@ -1,0 +1,19 @@
+page {
+    includeJSLibs {
+        #alljs = {$extPath}{$publicPath}{$jsPath}Src/all.js
+    }
+
+    includeJS {
+        
+    }
+
+    includeJSFooterlibs {
+        
+    }
+
+    includeJSFooter {
+         defaultJS = {$extPath}{$publicPath}{$buildPath}default.js  
+         runtimeJS = {$extPath}{$publicPath}{$buildPath}runtime.js 
+    #    ajaxPagination = typo3conf/ext/news/Resources/Public/JavaScript/AjaxPagination.js
+    }
+}

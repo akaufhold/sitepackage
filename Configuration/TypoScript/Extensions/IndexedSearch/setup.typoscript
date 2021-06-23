@@ -1,0 +1,50 @@
+# ###########################
+# Import IndexedSearch typoscript
+# ===========================
+
+# Plugin configuration
+plugin.tx_indexedsearch {
+  view {
+    templateRootPaths {
+      200 = {$extPath}{$privatePath}{$templatePath}Extensions/IndexedSearch/
+    }
+    partialRootPaths {
+      200 = {$extPath}{$privatePath}{$partialPath}Extensions/IndexedSearch/
+    }
+    layoutRootPaths {
+      200 = {$extPath}{$privatePath}{$layoutPath}Extensions/IndexedSearch/
+    }
+  }
+  settings{
+      displayAdvancedSearchLink = 0
+  }
+}
+
+// plugin.tx_indexedsearch{
+//     templateFile = {$extPath}{$privatePath}{$templatePath}Extensions/IndexedSearch/IndexedSearch.html
+// }
+
+lib.searchbox = FLUIDTEMPLATE
+lib.searchbox {
+
+    templateName = Searchbox
+
+    settings {
+        languageid = {plugin.tx_indexedsearch._DEFAULT_PI_VARS.lang}
+        targetPid = 9
+        controller = Search
+        action = search
+        pluginName = pi2
+        extensionName = indexedsearch
+        hash = false
+    }
+
+    templateRootPaths {
+        0 = EXT:indexed_search/Resources/Private/Partials/
+        10 = {$extPath}{$privatePath}{$templatePath}Extensions/IndexedSearch/
+    }
+}
+
+[globalVar = TSFE:id = 9]
+    lib.searchbox >
+[global]

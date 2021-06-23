@@ -1,0 +1,27 @@
+plugin.tx_powermail {
+	settings {
+		setup {
+			default {
+				senderName = TEXT
+				senderName.value = 
+ 
+				senderEmail = TEXT
+				senderEmail.value = 
+			}
+		}
+	}
+}
+
+plugin.tx_powermail.settings.styles.bootstrap.important = 1
+plugin.tx_powermail.settings.main.pid = 0
+plugin.tx_powermail.settings.main.confirmation = 0
+plugin.tx_powermail.settings.main.optin = 0
+plugin.tx_powermail.settings.main.moresteps = 0
+plugin.tx_powermail.settings.misc.htmlForHtmlFields = 1
+plugin.tx_powermail.settings.misc.htmlForLabels = 1
+plugin.tx_powermail.settings.styles.bootstrap.important = 1
+plugin.tx_powermail.settings.styles.bootstrap.numberOfColumns = 2
+plugin.tx_powermail.settings.styles.bootstrap.submitClasses = btn btn-primary btn-icon icon--paperplane
+plugin.tx_powermail.settings.styles.bootstrap.fieldWrappingClasses = tc-input powermail_field
+plugin.tx_powermail.settings.styles.bootstrap.fieldAndLabelWrappingClasses = tc-form-group__item col-m-6
+plugin.tx_powermail.settings.styles.bootstrap.rowClasses = row tc-form-group

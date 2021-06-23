@@ -1,0 +1,9 @@
+plugin.tx_scriptmerger.externalFileCacheLifetime = 70800
+plugin.tx_scriptmerger.css.enable                = 1
+plugin.tx_scriptmerger.css.minify.enable         = 1
+plugin.tx_scriptmerger.css.merge.enable          = 1
+plugin.tx_scriptmerger.javascript.enable         = 1
+plugin.tx_scriptmerger.javascript.minify.enable  = 1
+plugin.tx_scriptmerger.javascript.merge.enable   = 1 
+plugin.tx_scriptmerger.uniqueCharset.enable      = 1
+plugin.tx_scriptmerger.uniqueCharset.value       = @charset "UTF-8"

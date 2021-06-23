@@ -1,0 +1,10 @@
+plugin.tx_typo3encore {
+    settings {
+        entrypointJsonPath = EXT:sitepackage/Resources/Public/Frontend/entrypoints.json
+        manifestJsonPath = EXT:sitepackage/Resources/Public/Frontend/manifest.json
+        #builds {
+        #    firstBuild = EXT:sitepackage/Resources/Public/Frontend/FirstBuild
+        #    secondBuild = EXT:sitepackage/Resources/Public/Frontend/SecondBuild
+        #}
+    }
+}

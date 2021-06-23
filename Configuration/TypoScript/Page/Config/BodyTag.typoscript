@@ -1,0 +1,42 @@
+############################################################### BODY TAG LAYOUT CLASSES
+page.bodyTag                                    >
+page.bodyTagCObject                             = COA
+page.bodyTagCObject {
+
+    ########################################## BODY CLASS DEPENDING ON BE LAYOUT
+
+    10                                          = CASE
+    10.stdWrap.noTrimWrap                       = |<body class="page{field:uid} |||
+    10.stdWrap.noTrimWrap.insertData            = 1
+    10.stdWrap.splitChar                        = |
+
+    10.key.data                                 = levelfield:-1, backend_layout_next_level, slide
+    10.key.override.field                       = backend_layout
+
+    ##################### DEFAULT
+    10.default                                  = TEXT
+    10.default.value                            = sub
+    ##################### END DEFAULT
+
+    ##################### START
+    10.pagets__default                          = TEXT
+    10.pagets__default.value                    = start
+
+    10.pagets__defaultMeta                      = TEXT
+    10.pagets__defaultMeta.value                = start startMeta
+
+    10.pagets__sub                              = TEXT
+    10.pagets__sub.value                        = sub
+
+    10.pagets__subIframe                        = TEXT
+    10.pagets__subIframe.value                  = sub subIframe
+    ##################### END START
+
+    ########################################## BODY CLASS DEPENDING ON FE LAYOUT
+
+    20 = CASE
+    20.stdWrap.noTrimWrap                       = ||">||
+    20.stdWrap.noTrimWrap.insertData            = 1
+    20.stdWrap.splitChar                        = |
+    20.key.data                                 = levelfield:-1, layout,slide
+}

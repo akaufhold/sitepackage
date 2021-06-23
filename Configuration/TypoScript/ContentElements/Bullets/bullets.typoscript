@@ -1,0 +1,20 @@
+tt_content{
+  bullets {
+    dataProcessing {
+	    30 = TYPO3\CMS\Frontend\DataProcessing\SplitProcessor
+		30 {
+			if {
+				value = 3
+				equals.field = bullets_type
+			}
+			fieldName = bodytext
+			removeEmptyEntries = 1
+			as = bullets
+		}
+    }
+  }
+}
+tt_content.bullets.20.split.1.parseFunc = < lib.parseFunc 
+tt_content.bullets.20.split.1.htmlSpecialChars >
+tt_content.bullets.20.split.2.parseFunc = < lib.parseFunc 
+tt_content.bullets.20.split.2.htmlSpecialChars >

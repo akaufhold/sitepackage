@@ -1,0 +1,18 @@
+{
+  "entrypoints": {
+    "default": {
+      "js": [
+        "/typo3conf/ext/sitepackage/Resources/Public/Frontend/Build/runtime.js",
+        "/typo3conf/ext/sitepackage/Resources/Public/Frontend/Build/default.js"
+      ]
+    },
+    "styles": {
+      "js": [
+        "/typo3conf/ext/sitepackage/Resources/Public/Frontend/Build/runtime.js"
+      ],
+      "css": [
+        "/typo3conf/ext/sitepackage/Resources/Public/Frontend/Build/styles.css"
+      ]
+    }
+  }
+}

@@ -1,0 +1,2 @@
+plugin.tx_indexedsearch._DEFAULT_PI_VARS.results = 15
+#plugin.tx_indexedsearch.search.targetPid = 220

@@ -1,0 +1,109 @@
+##################### GRID CONFIG
+
+tx_gridelements.setup {
+    1col{
+        title = LLL:EXT:sitepackage/Resources/Private/Language/locallang_be.xlf:gridelements.1col.title
+        flexformDS = FILE:EXT:sitepackage/Configuration/FlexForms/Extensions/GridElements/Background.xml
+        description = LLL:EXT:sitepackage/Resources/Private/Language/locallang_be.xlf:gridelements.1col.description
+        config {
+            colCount = 1
+            rowCount = 1
+            rows {
+                1 {
+                    columns {
+                        1 {
+                            name = LLL:EXT:sitepackage/Resources/Private/Language/locallang_be.xlf:gridelements.1col.column.title
+                            colPos = 1010
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+    2col{
+        title = LLL:EXT:sitepackage/Resources/Private/Language/locallang_be.xlf:gridelements.2col.title
+        flexformDS = FILE:EXT:sitepackage/Configuration/FlexForms/Extensions/GridElements/Background.xml
+        description = LLL:EXT:sitepackage/Resources/Private/Language/locallang_be.xlf:gridelements.2col.description
+        config {
+            colCount = 2
+            rowCount = 1
+            rows {
+                1 {
+                    columns {
+                        1 {
+                            name = LLL:EXT:sitepackage/Resources/Private/Language/locallang_be.xlf:gridelements.2col.column.title
+                            colPos = 1010
+                        }
+
+                        2 {
+                            name = LLL:EXT:sitepackage/Resources/Private/Language/locallang_be.xlf:gridelements.2col.column.title
+                            colPos = 1020
+                        }
+                    }
+                }
+            }
+        }
+    }
+    3col{
+        title = LLL:EXT:sitepackage/Resources/Private/Language/locallang_be.xlf:gridelements.3col.title
+        flexformDS = FILE:EXT:sitepackage/Configuration/FlexForms/Extensions/GridElements/Background.xml
+        description = LLL:EXT:sitepackage/Resources/Private/Language/locallang_be.xlf:gridelements.3col.description
+        config {
+            colCount = 3
+            rowCount = 1
+            rows {
+                1 {
+                    columns {
+                        1 {
+                            name = LLL:EXT:sitepackage/Resources/Private/Language/locallang_be.xlf:gridelements.3col.column.title
+                            colPos = 1010
+                        }
+                        2 {
+                            name = LLL:EXT:sitepackage/Resources/Private/Language/locallang_be.xlf:gridelements.3col.column.title
+                            colPos = 1020
+                        }
+                        3 {
+                            name = LLL:EXT:sitepackage/Resources/Private/Language/locallang_be.xlf:gridelements.3col.column.title
+                            colPos = 1030
+                        }
+                    }
+                }
+            }
+        }
+    }
+    4col{
+        title = LLL:EXT:sitepackage/Resources/Private/Language/locallang_be.xlf:gridelements.4col.title
+        flexformDS = FILE:EXT:sitepackage/Configuration/FlexForms/Extensions/GridElements/Background.xml
+        description = LLL:EXT:sitepackage/Resources/Private/Language/locallang_be.xlf:gridelements.4col.description
+        config {
+            colCount = 4
+            rowCount = 1
+            rows {
+                1 {
+                    columns {
+                        1 {
+                            name = LLL:EXT:sitepackage/Resources/Private/Language/locallang_be.xlf:gridelements.4col.column.title
+                            colPos = 1010
+                        }
+
+                        2 {
+                            name = LLL:EXT:sitepackage/Resources/Private/Language/locallang_be.xlf:gridelements.4col.column.title
+                            colPos = 1020
+                        }
+
+                        3 {
+                            name = LLL:EXT:sitepackage/Resources/Private/Language/locallang_be.xlf:gridelements.4col.column.title
+                            colPos = 1030
+                        }
+
+                        4 {
+                            name = LLL:EXT:sitepackage/Resources/Private/Language/locallang_be.xlf:gridelements.4col.column.title
+                            colPos = 1040
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

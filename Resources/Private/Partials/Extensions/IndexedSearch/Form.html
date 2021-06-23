@@ -1,0 +1,53 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<div class="tx-indexedsearch-searchbox">
+    <f:form action="search" pluginName="{settings.pluginName}" extensionName="{settings.extensionName}" method="post" id="tx_indexedsearch" pageUid="{settings.targetPid}">
+        <div class="tx-indexedsearch-hidden-fields">
+            <f:form.hidden name="search[_sections]" value="0" />
+            <f:form.hidden name="search[_freeIndexUid]" id="tx_indexedsearch_freeIndexUid" value="_" />
+            <f:form.hidden name="search[pointer]" id="tx_indexedsearch_pointer" value="0" />
+            <f:form.hidden name="search[ext]" value="{settings.ext}" />
+            <f:form.hidden name="search[searchType]" value="{settings.searchType}" />
+            <f:form.hidden name="search[defaultOperand]" value="{settings.defaultOperand}" />
+            <f:form.hidden name="search[mediaType]" value="{settings.mediaType}" />
+            <f:form.hidden name="search[sortOrder]" value="{settings.sortOrder}" />
+            <f:form.hidden name="search[group]" value="{settings.group}" />
+            <f:form.hidden name="search[languageUid]" value="{settings.languageUid}" />
+            <f:form.hidden name="search[desc]" value="{settings.desc}" />
+            <f:form.hidden name="search[numberOfResults]" value="{settings.numberOfResults}" />
+            <f:form.hidden name="search[extendedSearch]" value="{settings.extendedSearch}" />
+        </div>
+        <fieldset>
+            <label for="tx-indexedsearch-searchbox-sword">
+                <f:translate key="form.searchFor" />:
+            </label>
+            <div class="row">
+                <div class="col-xs-12 col-m-4">
+                    <div class="tx-indexedsearch-form">
+                        <f:form.textfield name="search[sword]" value="{sword}" id="tx-indexedsearch-searchbox-sword" class="tc-text-input tx-indexedsearch-searchbox-sword" />
+                    </div>
+                </div>
+                <div class="col-xs-12 col-m-6">
+                    <div class="tx-indexedsearch-search-submit">
+                        <f:form.submit name="search[submitButton]" value="{f:translate(key: 'form.submit')}" id="tx-indexedsearch-searchbox-button-submit" class="btn btn-primary tx-indexedsearch-searchbox-button" >
+                            {f:translate(key: 'form.submit')}
+                        </f:form.submit>
+                    </div>
+                </div>
+            </div>
+        </fieldset>
+        <f:if condition="{settings.displayAdvancedSearchLink}">
+            <p>
+            <f:if condition="{searchParams.extendedSearch}">
+                <f:then>
+                    <f:link.action action="form" arguments="{search: {extendedSearch: 0}}"><f:translate key="form.linkToRegularSearch" /></f:link.action>
+                </f:then>
+                <f:else>
+                    <f:link.action action="form" arguments="{search: {extendedSearch: 1}}"><f:translate key="form.linkToAdvancedSearch" /></f:link.action>
+                </f:else>
+            </f:if>
+            </p>
+        </f:if>
+    </f:form>
+</div>
+<f:render partial="Rules" />
+</html>

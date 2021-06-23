@@ -1,0 +1,37 @@
+#########################
+#### LANGUAGE CONFIG ####
+#########################
+
+config.sys_language_mode       	                = strict
+config.sys_language_overlay                     = hideNonTranslated
+plugin.tx_indexedsearch.settings.defaultOptions.languageUid = 2
+
+lib.lang = TEXT
+
+#config.baseURL                 	            = {$baseUrl}
+config.defaultGetVars.L 	                    = 1
+config.htmlTag_setParams  	   	                = xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de"
+config.sys_language_uid   	   	                = 0
+config.language           	   	                = de
+config.locale_all         	   	                = de_DE.UTF-8
+config.htmlTag_langKey    	                   	= de
+plugin.tx_indexedsearch._DEFAULT_PI_VARS.lang   = 2
+config.absRelPath 				                = /
+
+lib.lang.value                                  = DE
+
+// [siteLanguage("languageId") == "1"]
+
+// #config.baseURL                 	             = {$baseUrl}
+// config.htmlTag_setParams  	                     = xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"
+// config.sys_language_uid 	     	             = 1
+// config.language                	                 = en
+// config.locale_all              	                 = en_EN.UTF-8
+// config.htmlTag_langKey         	                 = en
+// plugin.tx_indexedsearch._DEFAULT_PI_VARS.lang    = 1
+
+// config.absRelPath 				                 = /en/
+
+// lib.lang.value                                   = EN
+
+// [global]

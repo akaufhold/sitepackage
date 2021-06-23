@@ -1,0 +1,14 @@
+plugin.tx_powermail.view {
+    templateRootPaths {
+        100 = {$extPath}{$privatePath}{$templatePath}Extensions/Powermail/
+    }
+    layoutRootPaths {
+        100 = {$extPath}{$privatePath}{$layoutPath}Extensions/Powermail/
+    }
+    partialRootPath >
+    partialRootPaths {
+        100 = {$extPath}{$privatePath}{$partialPath}Extensions/Powermail/
+        20 = EXT:jh_captcha/Resources/Private/Powermail/Partials/Jhcaptcharecaptcha
+    }
+}
+

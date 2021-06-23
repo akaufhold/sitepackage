@@ -1,0 +1,5 @@
+{
+  "typo3conf/ext/sitepackage/Resources/Public/Frontend/Build/default.js": "/typo3conf/ext/sitepackage/Resources/Public/Frontend/Build/default.js",
+  "typo3conf/ext/sitepackage/Resources/Public/Frontend/Build/styles.css": "/typo3conf/ext/sitepackage/Resources/Public/Frontend/Build/styles.css",
+  "typo3conf/ext/sitepackage/Resources/Public/Frontend/Build/runtime.js": "/typo3conf/ext/sitepackage/Resources/Public/Frontend/Build/runtime.js"
+}

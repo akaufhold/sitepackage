@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+    <file source-language="en" datatype="plaintext" original="messages" date="2021-03-17UTC17:59:260">
+        <header>
+            <authorName>Andreas Kaufhold</authorName>
+            <authorEmail>info@stackfactory.de</authorEmail>
+        </header>
+        <body>
+            <trans-unit id="backend_layout.default">
+                <source>Default</source>
+            </trans-unit>
+            <trans-unit id="backend_layout.column.content">        
+                <source>Content</source>
+            </trans-unit>
+            <trans-unit id="backend_layout.column.header">        
+                <source>Header</source>
+            </trans-unit>
+            <trans-unit id="backend_layout.column.footer">        
+                <source>Footer</source>
+            </trans-unit>
+            <trans-unit id="gridelements.1col.title">        
+                <source>1 spaltiges Raster-Element</source>
+            </trans-unit>            
+            <trans-unit id="gridelements.1col.description">        
+                <source>Global - Spaltenbreite (100%)</source>
+            </trans-unit>
+            <trans-unit id="gridelements.2col.title">        
+                <source>2 spaltiges Raster-Element</source>
+            </trans-unit>            
+            <trans-unit id="gridelements.2col.description">        
+                <source>Global - Spaltenbreite (50%)</source>
+            </trans-unit>
+            <trans-unit id="gridelements.3col.title">        
+                <source>3 spaltiges Raster-Element</source>
+            </trans-unit>            
+            <trans-unit id="gridelements.3col.description">        
+                <source>Global - Spaltenbreite (33%)</source>
+            </trans-unit>
+            <trans-unit id="gridelements.4col.title">        
+                <source>4 spaltiges Raster-Element</source>
+            </trans-unit>            
+            <trans-unit id="gridelements.4col.description">        
+                <source>Global - Spaltenbreite (25%)</source>
+            </trans-unit>
+            <trans-unit id="gridelements.1col.column.title">        
+                <source>Spalte (100% Breite)</source>
+            </trans-unit>
+            <trans-unit id="gridelements.2col.column.title">        
+                <source>Spalte (50% Breite)</source>
+            </trans-unit>
+            <trans-unit id="gridelements.3col.column.title">        
+                <source>Spalte (33% Breite)</source>
+            </trans-unit>
+            <trans-unit id="gridelements.4col.column.title">        
+                <source>Spalte (25% Breite)</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

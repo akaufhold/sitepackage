@@ -1,0 +1,6 @@
+TCEFORM.tx_powermail_domain_model_field{
+    css {
+        altLabels.layout1 = Horizontal
+        altLabels.layout2 = Vertikal
+    }
+}

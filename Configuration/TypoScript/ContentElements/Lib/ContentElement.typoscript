@@ -1,0 +1,17 @@
+# Default FLUIDTEMPLATE configuration for content elements
+lib.contentElement = FLUIDTEMPLATE
+lib.contentElement {
+  #templateName = Default
+  templateRootPaths {
+    100 = {$styles.templates.templateRootPath}
+  }
+  partialRootPaths {
+    100 = {$styles.templates.partialRootPath}
+  }
+  layoutRootPaths {
+    100 = {$styles.templates.layoutRootPath}
+  }
+}
+
+styles.content.textmedia.maxW = 3840
+styles.content.textmedia.maxWInText = 1920

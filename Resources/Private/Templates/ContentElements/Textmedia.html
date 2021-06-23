@@ -1,0 +1,113 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<f:layout name="Default" />
+<f:section name="Header">
+    <f:switch expression="{data.colPos}">
+        <f:case value="5">
+            <div class="container">
+                <div class="tc-stage__body">
+                    <f:render partial="Header/AllStage" arguments="{_all}" />
+                </div>
+                <f:if condition="{data.bodytext}">
+                    <f:then>
+                        <div class="tc-stage__block">
+                            <f:if condition="{gallery.position.noWrap}">
+                                <f:render partial="Header/All" arguments="{_all}" />
+                            </f:if>
+                            <f:format.html>{data.bodytext}</f:format.html>
+                        </div>
+                    </f:then>
+                </f:if>
+            </div>
+        </f:case> 
+        <f:defaultCase>
+            <f:if condition="{gallery.position.noWrap} != 1">
+                <f:render partial="Header/All" arguments="{_all}" />
+            </f:if>
+        </f:defaultCase>
+    </f:switch>
+</f:section>
+
+<f:section name="HeaderCard">
+    <f:render partial="Media/GalleryClean" arguments="{_all}" />
+</f:section>
+
+<f:section name="Main">
+    <f:switch expression="{data.colPos}">
+        <f:case value="2">
+            <f:render partial="Media/Gallery" arguments="{_all}" />
+        </f:case> 
+        <f:case value="5">
+            <f:render partial="Media/GalleryClean" arguments="{_all}" />
+        </f:case> 
+        <f:case value="13">
+            <f:render partial="Media/GalleryClean" arguments="{_all}" />
+        </f:case> 
+        <f:defaultCase> 
+            <div class="wrapper-small">
+                <div class="tc-text-wrap ce-textpic {f:if(condition: '{gallery.count.files} > 1', then: 'ce-multiple', else: '')} ce-{gallery.position.horizontal} ce-{gallery.position.vertical}{f:if(condition: gallery.position.noWrap, then: ' ce-nowrap')}">
+                    <f:if condition="{gallery.position.vertical} != 'below'">
+                        <f:render partial="Media/GalleryImageWithText" arguments="{_all}" />
+                    </f:if>
+
+                    <f:if condition="{data.bodytext}">
+                        <f:then>
+                            <f:if condition="{gallery.position.noWrap}">
+                                <f:render partial="Header/All" arguments="{_all}" />
+                            </f:if>
+                            <f:format.html>{data.bodytext}</f:format.html>
+                        </f:then>
+                        <f:else>
+                            <f:if condition="{gallery.position.noWrap}">
+                                <f:if condition="{data.header}">
+                                    <f:render partial="Header/All" arguments="{_all}" />
+                                </f:if>
+                            </f:if>
+                        </f:else>
+                    </f:if>
+
+                    <f:if condition="{gallery.position.vertical} == 'below'">
+                        <f:render partial="Media/Gallery" arguments="{_all}" />
+                    </f:if>
+                </div>
+            </div>
+        </f:defaultCase> 
+    </f:switch>
+</f:section>
+
+<f:section name="MainCard">
+    <div class="card-body">
+        <f:if condition="{data.header}">
+            <h3 class="card-title">{data.header}</h3>
+        </f:if>
+        <f:if condition="{data.bodytext}">
+            <f:then>
+                <div class="ce-bodytext">
+                    <f:format.html>{data.bodytext}</f:format.html>
+                    </div>
+            </f:then>
+        </f:if>
+        <f:if condition="{data.header_link}">
+            <f:then>    
+                <footer class="card-footer">
+                    <span class="tc-card-footer__item">
+                        <f:link.typolink parameter="{data.header_link}" title="{parts.title}" parts-as="parts" class="tc-link icon--arrow-link">
+                            {parts.title}
+                        </f:link.typolink>
+                    </span>
+                </footer>
+            </f:then>
+        </f:if>
+    </div>
+</f:section>
+
+<f:section name="MainCardWall">   
+    <f:if condition="{data.bodytext}">
+        <f:then>
+            <div class="card-text ce-bodytext">
+                <f:format.html>{data.bodytext}</f:format.html>
+            </div>
+        </f:then>
+    </f:if>
+</f:section>
+
+</html>

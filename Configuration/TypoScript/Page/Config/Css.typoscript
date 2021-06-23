@@ -1,0 +1,9 @@
+page {
+    includeCSSLibs {
+
+    }
+    includeCSS {
+    #    sitepackage_layout = {$extPath}{$publicPath}{$buildPath}global.css
+         style               = {$extPath}{$publicPath}{$buildPath}styles.css
+    }
+}

@@ -1,0 +1,19 @@
+// Variables
+@import 'variables';
+
+// Modules
+// import your modules here
+
+@import 'headlines';
+@import 'header';
+@import 'footer';
+@import 'content';
+@import 'Extensions/gridelements';
+@import 'Extensions/powermail';
+@import 'Extensions/indexedsearch';
+@import 'Extensions/news';
+
+body{
+    overflow-x: hidden;
+    font-size:10px;
+}  

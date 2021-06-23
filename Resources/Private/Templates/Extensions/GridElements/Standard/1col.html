@@ -1,0 +1,17 @@
+<section class="tc-section {data.flexform_background}">
+    <div class="container gridelements">
+        <f:render section="Header" optional="true">
+            <f:render partial="Header/All" arguments="{_all}" />
+        </f:render>
+        <div class="row {f:if(condition: '{data.frame_class}', then: 'frame-{data.frame_class}')}
+        {f:if(condition: '{data.space_before_class}', then: 'space-before-{data.space_before_class}')}
+        {f:if(condition: '{data.space_after_class}', then: 'space-after-{data.space_after_class}')}" 
+        id="c{data.uid}">
+            <div class="col-m-12 col-xs-12">
+                <f:for each="{children.1.1010}" as="child">
+                    <f:cObject typoscriptObjectPath="tt_content.{child.data.CType}" data="{child.data}" table="tt_content" />
+                </f:for>
+            </div>
+        </div>
+    </div>
+</section>

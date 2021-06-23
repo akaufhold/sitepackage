@@ -1,0 +1,16 @@
+tt_content{
+  uploads {
+    dataProcessing {
+	    30 =  TYPO3\CMS\Frontend\DataProcessing\FilesProcessor
+		30 {
+			if {
+				value = 3
+				equals.field = uploads_type
+			}
+			references.fieldName = media
+            collections.field = file_collections
+            sorting.field = filelink_sorting
+		}
+    }
+  }
+}

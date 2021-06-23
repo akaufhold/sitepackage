@@ -1,0 +1,55 @@
+<!--?xml version="1.0" encoding="utf-8" standalone="yes" ?-->
+<T3DataStructure>
+    <meta>
+          <langDisable>1</langDisable>
+    </meta>
+    <ROOT type="array">
+          <type>array</type>
+          <el type="array">
+            <background type="array">
+                <TCEforms type="array">
+                <label>Hintergrund</label>
+                <config type="array">
+                  <type>selectSingle</type>
+                  <items type="array">
+                    <numIndex index="0" type="array">
+                      <numIndex index="0">transparent</numIndex>
+                      <numIndex index="1">default</numIndex>
+                    </numIndex>
+                    <numIndex index="1" type="array">
+                      <numIndex index="0">Alternativer Hintergrund</numIndex>
+                      <numIndex index="1">background-color-background-alt</numIndex>
+                    </numIndex>
+                  </items>
+                </config>
+              </TCEforms>
+            </background>
+            <autoPlay type="array">
+                <TCEforms type="array">
+                <label>Autoplay (in ms)</label>
+                <config type="array">
+                  <type>input</type>
+                </config>
+              </TCEforms>
+            </autoPlay>
+            <prevNextButtons type="array">
+                <TCEforms type="array">
+                <label>Vor/Zurück Buttons</label>
+                <config type="array">
+                  <type>selectSingle</type>
+                  <items type="array">
+                    <numIndex index="0" type="array">
+                      <numIndex index="0">Aus</numIndex>
+                      <numIndex index="1">false</numIndex>
+                    </numIndex>
+                    <numIndex index="1" type="array">
+                      <numIndex index="0">An</numIndex>
+                      <numIndex index="1">true</numIndex>
+                    </numIndex>
+                  </items>
+                </config>
+              </TCEforms>
+            </prevNextButtons>
+          </el>
+        </ROOT>
+</T3DataStructure>

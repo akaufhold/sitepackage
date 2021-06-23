@@ -1,0 +1,45 @@
+plugin.tx_news {
+        view {
+            layoutRootPaths {
+                100 = {$extPath}{$privatePath}{$layoutPath}Extensions/News/
+            }
+            partialRootPaths {
+                100 = {$extPath}{$privatePath}{$partialPath}Extensions/News/
+            }
+            templateRootPaths {
+                100 = {$extPath}{$privatePath}{$templatePath}Extensions/News/
+            }
+            #widget.GeorgRinger\News\ViewHelpers\Widget\PaginateViewHelper.templateRootPath = {$extPath}{$privatePath}{$templatePath}Extensions/News/
+        }
+        settings{
+            limit = 6
+            media.width = {$plugin.tx_news.settings.media.width}
+            media.maxWidth = {$plugin.tx_news.settings.media.maxWidth}
+            list{
+                media.image.width = {$plugin.tx_news.settings.list.media.image.width}
+                media.image.maxWidth = {$plugin.tx_news.settings.list.media.image.maxWidth}
+                paginate.itemsPerPage = 6
+                paginate.hidePagination = 0
+                paginate.templatePath = {$extPath}{$privatePath}{$templatePath}Extensions/News/ViewHelpers/Widget/Paginate/IndexAjax.html
+            }
+            sitemap{
+                startingpoint = {$plugin.tx_news.settings.sitemap.startingpoint}
+                detailPid = {$plugin.tx_news.settings.sitemap.detailPid}
+            }
+            link.skipControllerAndAction = 1
+            detail.showSocialShareButtons = 0
+        }
+}
+
+###############URLS KUERZEN
+
+[globalVar = GP:tx_news_pi1|news > 0]
+
+config.defaultGetVars {
+        tx_news_pi1 {
+                controller=News
+                action=detail
+        }
+}
+
+[global]
