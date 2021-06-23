@@ -16,10 +16,6 @@
                                 <numIndex index="0">transparent</numIndex>
                                 <numIndex index="1">default</numIndex>
                                 </numIndex>
-                                <numIndex index="1" type="array">
-                                <numIndex index="0">Alternativer Hintergrund</numIndex>
-                                <numIndex index="1">background-color-background-alt</numIndex>
-                                </numIndex>
                             </items>
                         </config>
                     </TCEforms>
@@ -33,10 +29,6 @@
                                 <numIndex index="0" type="array">
                                 <numIndex index="0">keins</numIndex>
                                 <numIndex index="1">default</numIndex>
-                                </numIndex>
-                                <numIndex index="1" type="array">
-                                <numIndex index="0">Card Layout</numIndex>
-                                <numIndex index="1">tc-wall tc-wall--6</numIndex>
                                 </numIndex>
                             </items>
                         </config>
