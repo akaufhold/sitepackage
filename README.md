@@ -1,4 +1,10 @@
-Sitepackage for the project "sitepackage"
+Default sitepackage for new TYPO3 sites 
 ==============================================================
 
-Add some explanation here.
+- tsconfig => be-layouts, grids, extensions 
+- typoscript => page, config, extensions 
+- page => layouts, templates and partials
+- fsc => layouts, templates and partials for bullets, list, table, text, textmedia, uploads
+- backend => css 
+
+- dependencies: gridelements
