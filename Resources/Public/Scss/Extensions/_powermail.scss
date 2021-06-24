@@ -6,21 +6,7 @@
     }
     .powermail_fieldset{
         .row{ 
-            .tc-form-group__item {
-                margin-top:0;
-                &.radio{
-                    margin-top:2rem;
-                }
-            }
-            .tc-form-buttons{
-                flex-grow: 1;
-            } 
-            .form-group {
-                margin-bottom: 0rem;
-            }
-            .tc-input__label {
-                margin-bottom: 0.5rem;
-            }
+
         }
     }
 }

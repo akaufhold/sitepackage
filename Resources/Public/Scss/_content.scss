@@ -1,43 +1,13 @@
-/* Attractor */
-.tc-attractor{
-    .tc-sticker {
-        padding: 0.25rem;
-    }
-} 
-
 // Uploads
-.tc-download-list{
-    .tc-download-list__item{
+.ce-uploads{
+    margin-left:-1rem;
+    li{
+        padding:1rem;
         margin:0;
-        .tc-download-list__filename{
-            a{
-                text-decoration: none;
-                color:black;
-                &:hover{
-                    color: #e20000;
-                }
-            }
-        }
+        display: inline-block;
     }
-    &.ce-uploads-3{
-        margin-left:-1rem;
-        li{
-            padding:1rem;
-            margin:0;
-            display: inline-block;
-        }
-        button{
-            margin-right:1rem;
-        }
-        .tc-download-button__icon{
-            position: relative;
-            a{
-                position: absolute;
-                width:100%;
-                height:100%;
-                display:block;
-            }
-        }
+    button{
+        margin-right:1rem;
     }
 } 
 
@@ -49,19 +19,3 @@
         }
     }
 } 
-
-//Iframes
-
-.iframe__frame{
-    border:0;
-} 
-.subIframe main{
-    .tc-section{
-        padding-top: 0rem;
-        .container{
-            padding-right: 0rem;
-            padding-left: 0rem;
-            max-width: unset;
-        }
-    }
-}
