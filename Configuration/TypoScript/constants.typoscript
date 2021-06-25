@@ -1,6 +1,6 @@
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:fluid_styled_content/Configuration/TypoScript/constants.typoscript">
-<INCLUDE_TYPOSCRIPT: source="FILE:EXT:sitepackage/Configuration/TypoScript/Extensions/constants.typoscript" extensions="typoscript>
-
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:sitepackage/Configuration/TypoScript/Extensions/constants.typoscript" extensions="typoscript">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:sitepackage/Configuration/TypoScript/ContentElements/constants.typoscript" extensions="typoscript">
 # PATH CONSTANTS SNIPPETS
 extPath         = EXT:sitepackage/
 
