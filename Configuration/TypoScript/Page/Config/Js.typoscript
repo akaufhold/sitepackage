@@ -12,8 +12,16 @@ page {
     }
 
     includeJSFooter {
-         defaultJS = {$extPath}{$publicPath}{$buildPath}default.js  
-         runtimeJS = {$extPath}{$publicPath}{$buildPath}runtime.js 
-    #    ajaxPagination = typo3conf/ext/news/Resources/Public/JavaScript/AjaxPagination.js
+        runtimeJS = {$extPath}{$publicPath}{$buildPath}runtime.js 
+        appJS = {$extPath}{$publicPath}{$buildPath}app.js
+
+        #ajaxPagination = typo3conf/ext/news/Resources/Public/JavaScript/AjaxPagination.js
     }
 }
+
+// page.includeCSS {
+//     # Pattern typo3_encore:entryName
+//     app = typo3_encore:app
+//     # If you want to ensure that this file is loaded first uncomment the next line
+//     # app.forceOnTop = 1
+// }

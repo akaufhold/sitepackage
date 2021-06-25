@@ -3,7 +3,7 @@ page {
 
     }
     includeCSS {
-    #    sitepackage_layout = {$extPath}{$publicPath}{$buildPath}global.css
-         style               = {$extPath}{$publicPath}{$buildPath}styles.css
+        #sitepackage_layout = {$extPath}{$publicPath}{$buildPath}global.css
+        #style               = {$extPath}{$publicPath}{$buildPath}styles.css
     }
 }
