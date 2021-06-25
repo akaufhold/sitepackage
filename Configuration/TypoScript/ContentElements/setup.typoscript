@@ -9,3 +9,5 @@
 #@import 'EXT:sitepackage/Configuration/TypoScript/ContentElement/Groups/Menu/'
 #@import 'EXT:sitepackage/Configuration/TypoScript/ContentElement/Groups/Plugin/'
 #@import 'EXT:sitepackage/Configuration/TypoScript/ContentElement/Groups/Special/'
+
+styles.content.textmedia.maxW = 3840
