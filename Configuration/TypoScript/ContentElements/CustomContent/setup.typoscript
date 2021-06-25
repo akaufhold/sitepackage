@@ -1,0 +1,6 @@
+tt_content {
+    sitepackage_customContent =< lib.contentElement
+    sitepackage_customContent {
+        templateName = customContent
+    }
+}
