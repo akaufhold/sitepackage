@@ -1,0 +1,15 @@
+mod.wizards.newContentElement.wizardItems.common {
+    header = Custom Elements
+    icon = 
+    elements {
+        sitepackage_customContent {
+            iconIdentifier = content-text
+            title = LLL:EXT:sitepackage/Resources/Private/Language/locallang_ttc.xlf:wizardItems.sitepackage_customContent.title
+            description = LLL:EXT:sitepackage/Resources/Private/Language/locallang_ttc.xlf:wizardItems.sitepackage_customContent.description
+            tt_content_defValues {
+                CType = sitepackage_customContent
+            }
+        }
+    }
+    show := addToList(sitepackage_customContent)
+}
