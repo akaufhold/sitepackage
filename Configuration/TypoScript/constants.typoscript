@@ -22,6 +22,16 @@ jsPath          = JavaScript/
 # {$extPath}{$privatePath}{$partialPath}
 # {$extPath}{$privatePath}{$templatePath}
 
+// PATH CONSTANTS COMPLETE
+
+styles {
+    templates {
+        layoutRootPath = EXT:sitepackage/Resources/Private/Layouts/ContentElements/
+        partialRootPath = EXT:sitepackage/Resources/Private/Partials/ContentElements/
+        templateRootPath = EXT:sitepackage/Resources/Private/Templates/ContentElements/
+    }
+}
+
 page {
     meta {
         description =
