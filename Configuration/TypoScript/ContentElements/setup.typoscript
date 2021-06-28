@@ -1,7 +1,8 @@
 # import lib ContentElement
-@import 'EXT:sitepackage/Configuration/TypoScript/ContentElements/Lib/'
-@import 'EXT:sitepackage/Configuration/TypoScript/ContentElements/Bullets/'
-@import 'EXT:sitepackage/Configuration/TypoScript/ContentElements/Uploads/'
+@import 'EXT:sitepackage/Configuration/TypoScript/ContentElements/Bullets/setup.typoscript'
+@import 'EXT:sitepackage/Configuration/TypoScript/ContentElements/CustomContent/setup.typoscript'
+@import 'EXT:sitepackage/Configuration/TypoScript/ContentElements/Lib/setup.typoscript'
+@import 'EXT:sitepackage/Configuration/TypoScript/ContentElements/Uploads/setup.typoscript'
 
 # import ContentElements
 #@import 'EXT:sitepackage/Configuration/TypoScript/ContentElement/Groups/Static/'

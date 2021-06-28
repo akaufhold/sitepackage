@@ -3,13 +3,13 @@ lib.contentElement = FLUIDTEMPLATE
 lib.contentElement {
   #templateName = Default
   templateRootPaths {
-    100 = {$styles.templates.templateRootPath}
+    100 = {$extPath}{$privatePath}{$templatePath}ContentElements/
   }
   partialRootPaths {
-    100 = {$styles.templates.partialRootPath}
+    100 = {$extPath}{$privatePath}{$partialPath}ContentElements/
   }
   layoutRootPaths {
-    100 = {$styles.templates.layoutRootPath}
+    100 = {$extPath}{$privatePath}{$layoutPath}ContentElements/
   }
 }
 
