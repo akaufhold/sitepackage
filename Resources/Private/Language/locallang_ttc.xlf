@@ -6,10 +6,10 @@
             <authorEmail>info@stackfactory.de</authorEmail>
         </header>
         <body>
-            <trans-unit id="sitepackage_customContent.wizard.title">
-                <source>Standard</source>
+            <trans-unit id="wizardItems.sitepackage_customContent.title">
+                <source>Custom Content</source>
             </trans-unit>
-            <trans-unit id="sitepackage_customContent.wizard.description">
+            <trans-unit id="wizardItems.sitepackage_customContent.description">
                 <source>Standardbeschreibung</source>
             </trans-unit>
         </body>
