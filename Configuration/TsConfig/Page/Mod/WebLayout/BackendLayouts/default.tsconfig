@@ -9,7 +9,7 @@ mod {
                 config {
                     backend_layout {
                         colCount = 4
-                        rowCount = 1
+                        rowCount = 3
                         rows {
                             1 {
                                 columns {
