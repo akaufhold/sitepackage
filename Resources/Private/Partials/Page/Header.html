@@ -1,5 +1,17 @@
 {namespace encore = Ssch\Typo3Encore\ViewHelpers}
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
 
-<header class="header">
-    <f:cObject typoscriptObjectPath="lib.dynamicContentSlide" data="{colPos: '1'}" />
-</header>
+<f:section name="Header">
+    <header class="header">
+        <div class="headerTop">
+            <f:render partial="Navigation" arguments="{_all}"/>
+        </div>
+        <div class="headerBottom">
+            <div class="headerImage">
+                <f:cObject typoscriptObjectPath="lib.dynamicContentSlide" data="{colPos: '1'}" />
+            </div>
+        </div>
+    </header>
+</f:section>
+
+</html>
