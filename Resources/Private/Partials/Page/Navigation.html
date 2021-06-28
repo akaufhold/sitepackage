@@ -6,7 +6,6 @@
         <ul class="navbar-nav" data-site-nav-level="1">
             <f:for each="{mainnavigation}" as="mainnavigationItem">
                 <li class="nav-item mainNav__item {f:if(condition: mainnavigationItem.active, then:'active')}">
-                    <i class="fas fa-camera"></i>
                     <f:if condition="{mainnavigationItem.children}">
                         <f:then>
                             <button href="{mainnavigationItem.link}" 
