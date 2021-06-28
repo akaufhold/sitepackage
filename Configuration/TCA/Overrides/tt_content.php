@@ -1,12 +1,14 @@
+<?php
+
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addTcaSelectItem(
    'tt_content',
    'CType',
     [
-        'LLL:EXT:sitepackge/Resources/Private/Language/Tca.xlf:sitepackage_customContent',
+        'LLL:EXT:sitepackage/Resources/Private/Language/locallang_ttc.xlf:wizardItems.sitepackage_customContent.title',
         'sitepackage_customContent',
         'custom-content',
     ],
-    'header',
+    'textmedia',
     'after'
 );
 
