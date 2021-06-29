@@ -15,6 +15,9 @@
             <trans-unit id="newContent.card.description">
                 <source>The card is a versatile component and can be used for any kind of teasering content. Usually, the card is being used in a group of multiple instead of standalone.</source>
             </trans-unit>
+            <trans-unit id="header.nav.button.text">
+                <source>More Informations</source>
+            </trans-unit> 
         </body>
     </file>
 </xliff>
