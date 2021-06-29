@@ -18,6 +18,18 @@
             <trans-unit id="backend_layout.column.footer">        
                 <source>Footer</source>
             </trans-unit>
+            <trans-unit id="backend_layout.column.footer.col1">        
+                <source>Footer 1st Column</source>
+            </trans-unit>
+            <trans-unit id="backend_layout.column.footer.col2">        
+                <source>Footer 2st Column</source>
+            </trans-unit>
+            <trans-unit id="backend_layout.column.footer.col3">        
+                <source>Footer 3st Column</source>
+            </trans-unit>
+            <trans-unit id="backend_layout.column.footer.col4">        
+                <source>Footer 4st Column</source>
+            </trans-unit>
             <trans-unit id="gridelements.1col.title">        
                 <source>1 spaltiges Raster-Element</source>
             </trans-unit>            
