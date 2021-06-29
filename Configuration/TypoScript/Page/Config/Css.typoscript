@@ -4,6 +4,7 @@ page {
     }
     includeCSS {
         #sitepackage_layout = {$extPath}{$publicPath}{$buildPath}global.css
+        fonts             = {$extPath}{$publicPath}{$buildPath}fonts.css
         app               = {$extPath}{$publicPath}{$buildPath}app.css
     }
 }
