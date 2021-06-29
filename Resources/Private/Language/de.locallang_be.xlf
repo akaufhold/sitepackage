@@ -9,6 +9,9 @@
             <trans-unit id="backend_layout.default">
                 <target>Standard</target>
             </trans-unit>
+            <trans-unit id="backend_layout.sub">
+                <target>Unterseiten</target>
+            </trans-unit>
             <trans-unit id="backend_layout.column.content">
                 <target>Inhalt</target>
             </trans-unit>

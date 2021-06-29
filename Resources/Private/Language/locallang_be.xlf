@@ -9,6 +9,9 @@
             <trans-unit id="backend_layout.default">
                 <source>Default</source>
             </trans-unit>
+            <trans-unit id="backend_layout.sub">
+                <source>Subsites</source>
+            </trans-unit>
             <trans-unit id="backend_layout.column.content">        
                 <source>Content</source>
             </trans-unit>
