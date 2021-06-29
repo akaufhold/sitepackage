@@ -16,6 +16,7 @@ mod {
                                     1 {
                                         name = LLL:EXT:sitepackage/Resources/Private/Language/locallang_be.xlf:backend_layout.column.header
                                         colPos = 1
+                                        colspan = 4
                                     }
                                 }
                             }
@@ -24,6 +25,7 @@ mod {
                                     1 {
                                         name = LLL:EXT:sitepackage/Resources/Private/Language/locallang_be.xlf:backend_layout.column.content
                                         colPos = 2
+                                        colspan = 4
                                     }
                                 }
                             }
@@ -32,6 +34,7 @@ mod {
                                     1 {
                                         name = LLL:EXT:sitepackage/Resources/Private/Language/locallang_be.xlf:backend_layout.column.footer
                                         colPos = 3
+                                        colspan = 4
                                     }
                                 }
                             }
