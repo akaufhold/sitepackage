@@ -22,16 +22,16 @@
                 <target>Footer</target>
             </trans-unit>
             <trans-unit id="backend_layout.column.footer.col1">        
-                <target>Footer 1st Column</target>
+                <target>Footer Erste Spalte</target>
             </trans-unit>
             <trans-unit id="backend_layout.column.footer.col2">        
-                <target>Footer 2st Column</target>
+                <target>Footer Zweite Spalte</target>
             </trans-unit>
             <trans-unit id="backend_layout.column.footer.col3">        
-                <target>Footer 3st Column</target>
+                <target>Footer Dritte Spalte</target>
             </trans-unit>
             <trans-unit id="backend_layout.column.footer.col4">        
-                <target>Footer 4st Column</target>
+                <target>Footer Vierte Spalte</target>
             </trans-unit>
             <trans-unit id="gridelements.1col.title">        
                 <target>1 spaltiges Raster-Element</target>
