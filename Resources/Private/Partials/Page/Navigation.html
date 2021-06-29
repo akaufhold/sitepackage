@@ -33,16 +33,20 @@
                                             {mainnavigationItem.data.subtitle}
                                         </p>
                                     </div>
-                                    <ul class="" data-site-nav-level="2">
+                                    <ul class="row" data-site-nav-level="2">
                                         <f:for each="{mainnavigationItem.children}" as="child">
-                                            <li class="list-unstyled position-relative {f:if(condition: child.active, then:'active')}">
+                                            <f:alias map="{childCounter: '{mainnavigationItem.children -> f:count()}'}">
+                                                <f:alias map="{cols: '{12/childCounter}'}"> 
+                                                    <li class="col-md-{cols -> f:format.number(decimals: 0)} col-6 list-unstyled position-relative {f:if(condition: child.active, then:'active')}">
+                                                </f:alias>
+                                            </f:alias>
                                                 <f:if condition="{child.children}">
                                                     <f:then>
                                                         <ul class="" data-site-nav-level="3">
                                                             <f:for each="{child.children}" as="child">
                                                                 <li class="{f:if(condition: child.active, then:'active')}">
                                                                     <span class="fa-li">
-                                                                        <i class="fas fa-check-square"></i>
+                                                                        <i class="fas fa-arrow-right"></i>
                                                                     </span>
                                                                     <a href="{child.link}" class="text-secondary" target="{child.target}" title="{child.title}">
                 
@@ -55,7 +59,7 @@
                                                     </f:then>     
                                                     <f:else>
                                                         <span class="fa-li">
-                                                            <i class="fas fa-check-square"></i>
+                                                            <i class="fas fa-arrow-right"></i>
                                                         </span>
                                                         <a href="{child.link}" class="text-secondary" target="{child.target}" title="{child.title}">
                                                             {child.title}
@@ -67,7 +71,7 @@
                                     </ul>
                                     <button class="btn btn-primary btn-sm mt-4" type="button">
                                         <a href="{mainnavigationItem.link}" class="text-white" target="_top">
-                                            {mainnavigationItem.data.title}
+                                            <f:translate key="LLL:EXT:sitepackage/Resources/Private/Language/locallang.xlf:header.nav.button.text" />
                                         </a>
                                     </button>   
                                 </div>
