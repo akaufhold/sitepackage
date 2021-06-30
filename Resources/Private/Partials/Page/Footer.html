@@ -3,9 +3,9 @@
       data-namespace-typo3-fluid="true">
 
 <f:section name="Footer">
-    <footer class="footer pt-4 pb-4 bg-secondary">
+    <footer class="footer pt-4 bg-secondary">
 
-        <div class="container-md">
+        <div class="container-md footer-menu">
             <div class="row">
                 <div class="col-md-3 col-6">
                     <f:cObject typoscriptObjectPath="lib.dynamicContentSlide" data="{colPos: '10'}" />
@@ -22,10 +22,9 @@
             </div>
         </div>
         
-        <div class="container-xxl">
+        <div class="container-xxl footer-copyright">
             <div class="col-md-12">
-                <f:cObject typoscriptObjectPath="lib.copyright" />
-                <f:cObject typoscriptObjectPath="lib.sitename" />
+                <f:cObject typoscriptObjectPath="lib.copyright" /><f:cObject typoscriptObjectPath="lib.sitename" />
             </div>
         </div>
     </footer>
