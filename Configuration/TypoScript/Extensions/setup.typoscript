@@ -2,7 +2,7 @@
 # import TypoScript setup for plugins
 # ###########################
 
-#@import 'EXT:sitepackage/Configuration/TypoScript/Extensions/GridElements/setup.typoscript'
+@import 'EXT:sitepackage/Configuration/TypoScript/Extensions/GridElements/setup.typoscript'
 #@import 'EXT:sitepackage/Configuration/TypoScript/Extensions/IndexedSearch/setup.typoscript'
 #@import 'EXT:sitepackage/Configuration/TypoScript/Extensions/MagnificPopup/setup.typoscript'
 #@import 'EXT:sitepackage/Configuration/TypoScript/Extensions/News/setup.typoscript'
