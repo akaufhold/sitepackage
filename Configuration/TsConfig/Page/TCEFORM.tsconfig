@@ -27,9 +27,10 @@ TCEFORM {
                         3 = Layout 3
                     }
                 }
-                menu_pages{
+                menu_pages,
+                menu_subpages{
                     altLabels {
-                        1 = Layout 1
+                        1 = Arrows
                     }
                 }
             }

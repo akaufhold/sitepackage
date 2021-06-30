@@ -9,7 +9,7 @@
             </button>
             <ul class="navbar-nav navbar-collapse collapse" id="navbarNavigation" data-site-nav-level="1">
                 <f:for each="{mainnavigation}" as="mainnavigationItem">
-                    <li class="nav-item mainNav__item {f:if(condition: mainnavigationItem.active, then:'active')}{f:if(condition: mainnavigationItem.children, then:' dropdown has-megamenu')}">
+                    <li class="nav-item mainNav__item ml-1 {f:if(condition: mainnavigationItem.active, then:'active')}{f:if(condition: mainnavigationItem.children, then:' dropdown has-megamenu')}">
                         
                         <f:if condition="{mainnavigationItem.children}">
                             <f:then>
@@ -26,7 +26,7 @@
  
                         <f:if condition="{mainnavigationItem.children}">
                             <f:then>
-                                <div class="dropdown-menu megamenu pt-6" role="menu">
+                                <div class="dropdown-menu megamenu mt-2" role="menu">
                                     <h4 class="">{mainnavigationItem.data.title}</h4>
                                     <div class="">
                                         <p>

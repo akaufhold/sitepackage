@@ -1,6 +1,9 @@
-<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" 
+      xmlns:sp="http://typo3.org/ns/Stackfactory/Sitepackage/ViewHelpers" 
+      data-namespace-typo3-fluid="true">
+
 <f:section name="Footer">
-    <footer class="footer bg-secondary">
+    <footer class="footer pt-4 pb-4 bg-secondary">
 
         <div class="container-md">
             <div class="row">
@@ -18,7 +21,14 @@
                 </div>
             </div>
         </div>
-
+        
+        <div class="container-xxl">
+            <div class="col-md-12">
+                <f:cObject typoscriptObjectPath="lib.copyright" />
+                <f:cObject typoscriptObjectPath="lib.sitename" />
+                <f:debug>{_all}</f:debug>
+            </div>
+        </div>
     </footer>
 </f:section>
 
