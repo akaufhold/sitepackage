@@ -7,3 +7,5 @@
 @import 'EXT:sitepackage/Configuration/TypoScript/Page/setup.typoscript'
 # import plugins setup
 @import 'EXT:sitepackage/Configuration/TypoScript/Extensions/setup.typoscript'
+# import helper setup
+@import 'EXT:sitepackage/Configuration/TypoScript/Helper/'
