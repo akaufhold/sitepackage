@@ -1,16 +1,9 @@
 <html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
 <f:if condition="{data.header_layout} != 100">
     <f:if condition="{data.header} || {data.subheader} || {data.date}">
-        <f:if condition="({data.colPos}=='0') || ({data.colPos}=='9') || ({data.colPos}=='10') || ({data.colPos}=='11') || ({data.colPos}=='12') || ({data.layout}=='2')">
-            <f:then>
-                <f:render section="AllHeaders" arguments="{_all}" optional="true"/>
-            </f:then>
-            <f:else>
-                <header class="tc-heading">
-                    <f:render section="AllHeaders" arguments="{_all}" optional="true"/>
-                </header>
-            </f:else>
-        </f:if>
+        <header>
+            <f:render section="AllHeaders" arguments="{_all}" optional="true"/>
+        </header>
     </f:if>
 </f:if>
 
