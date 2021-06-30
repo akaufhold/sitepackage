@@ -2,10 +2,8 @@
 
 namespace Stackfactory\Sitepackage\Viewhelpers;
 
-use TYPO3\CMS\Core\Core\SystemEnvironmentBuilder;
 use TYPO3Fluid\Fluid\Core\Rendering\RenderingContextInterface;
 use TYPO3Fluid\Fluid\Core\ViewHelper\AbstractViewHelper;
-
 
 class SitenameViewHelper extends AbstractViewHelper
 {
