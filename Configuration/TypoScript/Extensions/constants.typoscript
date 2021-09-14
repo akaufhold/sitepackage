@@ -2,3 +2,4 @@
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:sitepackage/Configuration/TypoScript/Extensions/MagnificPopup/constants.typoscript" extensions="typoscript">
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:sitepackage/Configuration/TypoScript/Extensions/News/constants.typoscript" extensions="typoscript">
 <INCLUDE_TYPOSCRIPT: source="FILE:EXT:sitepackage/Configuration/TypoScript/Extensions/Powermail/constants.typoscript" extensions="typoscript">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:sitepackage/Configuration/TypoScript/Extensions/SeoLighthouse/constants.typoscript" extensions="typoscript">

@@ -1,0 +1,82 @@
+// Main
+
+main {
+  overflow: hidden;
+  position: relative;
+
+  .content-top {
+    position: relative;
+
+    .content-top-background {
+      content: "";
+      background: var(--color-lightblue);
+      position: absolute;
+      right: -130%;
+      z-index: -1;
+      display: block;
+      height: 100%;
+      width: 200%;
+
+      @include rotateZ(0deg);
+
+      transform-origin: center center;
+      opacity: .2;
+    }
+
+    .content-top-circle {
+      content: "";
+      background: var(--color-lightgray);
+      position: absolute;
+      display: block;
+      min-height: 5rem;
+      min-width: 5rem;
+      border-radius: 2.5rem;
+      opacity: .1;
+      top: 0%;
+      z-index: -1;
+    }
+  }
+}
+
+// Text
+.frame-type-text p {
+  font-size: .8rem;
+}
+
+// Uploads
+.ce-uploads {
+  margin-left: -1rem;
+
+  li {
+    padding: 1rem;
+    margin: 0;
+    display: inline-block;
+  }
+
+  button {
+    margin-right: 1rem;
+  }
+}
+
+.btn-primary {
+  span {
+    a {
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+}
+
+// Menu Pages, Subpages
+
+.menuPages,
+.menuSubpages {
+  ul {
+    li {
+      a {
+        color: var(--bs-light);
+        font-size: .9rem;
+      }
+    }
+  }
+}

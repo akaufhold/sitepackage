@@ -1,0 +1,15 @@
+<f:if condition="{data.header_layout} != 100">
+    <f:if condition="{data.header}">
+        <header class="card-header py-3">
+            <f:render partial="Header/Header" arguments="{
+                    uid: data.uid,
+                    header: data.header,
+                    layout: data.header_layout,
+                    contentLayout: data.layout,
+                    colPos: data.colPos,
+                    positionClass: '{f:if(condition: data.header_position, then: \'ce-headline-{data.header_position}\')}',
+                    link: data.header_link,
+                    default: settings.defaultHeaderType}" />
+        </header>
+    </f:if>
+</f:if>

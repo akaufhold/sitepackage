@@ -1,0 +1,12 @@
+#ddev-generated: Automatically generated ddev .gitignore.
+# You can remove the above line if you want to edit and maintain this file yourself.
+/.vscode
+
+.DS_Store
+**/.sass-cache
+**/node_modules
+**/StyleSheets/*
+
+/Resources/Public/
+
+Build/yarn.lock

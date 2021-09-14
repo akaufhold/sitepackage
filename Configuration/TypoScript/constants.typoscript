@@ -7,15 +7,15 @@ extPath         = EXT:sitepackage/
 privatePath     = Resources/Private/
 publicPath      = Resources/Public/
 
-buildPath       = Frontend/Build/
+buildPath       = 
 
 layoutPath      = Layouts/
 partialPath     = Partials/
 templatePath    = Templates/
 
 iconPath        = Icons/
-cssPath         = Css/ 
-jsPath          = JavaScript/
+cssPath         = StyleSheets/ 
+jsPath          = JavaScripts/
 
 # PATH CONSTANTS COMPLETE
 # {$extPath}{$privatePath}{$layoutPath}

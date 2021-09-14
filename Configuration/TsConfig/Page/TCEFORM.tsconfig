@@ -14,7 +14,7 @@ TCEFORM {
                 text {
                     altLabels {
                         0 = Standard
-                        1 = Layout 1
+                        1 = Card
                         2 = Layout 2
                         3 = Layout 3
                     }
@@ -22,7 +22,7 @@ TCEFORM {
                 textmedia {
                     altLabels {
                         0 = Standard
-                        1 = Layout 1
+                        1 = Card
                         2 = Layout 2
                         3 = Layout 3
                     }

@@ -3,8 +3,7 @@ page {
 
     }
     includeCSS {
-        #sitepackage_layout = {$extPath}{$publicPath}{$buildPath}global.css
-        fonts             = {$extPath}{$publicPath}{$buildPath}fonts.css
-        app               = {$extPath}{$publicPath}{$buildPath}app.css
+        app                = {$extPath}{$publicPath}{$cssPath}app.css
+        #fonts             = {$extPath}{$publicPath}{$cssPath}fonts.css
     }
 }

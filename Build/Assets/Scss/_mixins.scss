@@ -1,0 +1,7 @@
+@mixin rotate($degrees) {
+  transform: rotate($degrees);
+}
+
+@mixin rotateZ($degrees) {
+  transform: rotateZ($degrees);
+}

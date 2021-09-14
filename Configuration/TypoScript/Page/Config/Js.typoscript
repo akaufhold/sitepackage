@@ -12,8 +12,8 @@ page {
     }
 
     includeJSFooter {
-        runtimeJS = {$extPath}{$publicPath}{$buildPath}runtime.js 
-        appJS = {$extPath}{$publicPath}{$buildPath}app.js
+        runtimeJS = {$extPath}{$publicPath}{$jsPath}runtime.js 
+        appJS = {$extPath}{$publicPath}{$jsPath}app.js
 
         #ajaxPagination = typo3conf/ext/news/Resources/Public/JavaScript/AjaxPagination.js
     }
