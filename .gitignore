@@ -10,3 +10,4 @@
 /Resources/Public/
 
 Build/yarn.lock
+.gitconfig

@@ -12,7 +12,10 @@
     "dev": "encore dev",
     "watch": "encore dev --watch",
     "build": "encore production",
-    "test": "jest --watch"
+    "test": "jest --watch",
+    "st": "ddev start",
+    "rst": "ddev restart",
+    "stp": "ddev stop"
   },
   "dependencies": {
     "@beyonk/google-fonts-webpack-plugin": "^1.7.0",
