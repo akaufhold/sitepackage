@@ -38,28 +38,6 @@ gsap.to(".content-top-background", {
     },   
 }); 
 
-/*const tl = gsap.timeline({
-    scrollTrigger: {
-      
-      trigger: ".content-top",
-      start: "top center",
-      end: "+=400",
-      
-      scrub: true,
-      markers: true,
-  
-    }
-});
-
-$(".content-top-circle").each(function(key,val){
-    var multPosX = Math.cos(50*key)*100;
-    console.log(multPosX);
-    var multPosY = 50*key;
-    tl.to(".content-top-circle"+key, { xPercent: multPosX, duration: 1});
-    tl.to(".content-top-circle"+key, { yPercent: multPosY, duration: 1});
-
-})*/
-
 $(function() {   
     var App = function () {
         var app = this;
