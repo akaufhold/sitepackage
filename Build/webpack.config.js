@@ -211,7 +211,7 @@ Encore.addLoader({
 //   });
 // }
 
-if (!Encore.isProduction()) {
+/*if (!Encore.isProduction()) {
   Encore.addLoader({
       test: /\.(scss|css)$/,
       use: [
@@ -261,7 +261,7 @@ if (!Encore.isProduction()) {
       ],
   });
   // Encore.enablePostCssLoader();
-}
+}*/
 
 if (!Encore.isProduction()) {
   Encore.addPlugin(
