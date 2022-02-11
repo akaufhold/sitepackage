@@ -1,13 +1,10 @@
 'use strict';
 
 import 'normalize-css';
-import * as $ from 'jquery';
-
-global.jQuery = global.$ = require('jquery');
 import 'bootstrap';
 import {gsap} from 'gsap';
 import {ScrollTrigger} from "gsap/ScrollTrigger";
-import { CSSRulePlugin } from "gsap/CSSRulePlugin";
+import {CSSRulePlugin} from "gsap/CSSRulePlugin";
 
 gsap.registerPlugin(ScrollTrigger);
 gsap.registerPlugin(CSSRulePlugin);
@@ -25,20 +22,7 @@ import { faChevronRight } from "@fortawesome/free-solid-svg-icons/faChevronRight
 
 library.add(faEnvelope, faArrowUp, faChevronRight);
 
-gsap.to(".content-top-background", { 
-    opacity: "0.4",
-    transform:"rotateX(0deg) rotateY(0deg) rotateZ(-45deg)",
-    backgroundColor:"#ccc",
-    ease: "none",
-    scrollTrigger: {  
-        trigger: "main",
-        start: "top bottom", // the default values
-        end: () => "+=700", 
-        scrub: true
-    },   
-}); 
-
-$(function() {   
+/*$(function() {   
     var App = function () {
         var app = this;
 
@@ -49,4 +33,4 @@ $(function() {
 
     var app = new App();
     app.init();
-})  
+})*/
